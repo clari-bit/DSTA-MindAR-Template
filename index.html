@@ -38,18 +38,6 @@
 </head>
 
 <body>
-	<!-- Start of a-scene, A-Frame uses right-hand coordinates -->
-	 <a-scene> 
-
-    <a-assets> 
-
-        <a-asset-item id="card" src="C:\Users\fabte\Desktop\AvatarCreation_Files.glb"></a-asset-item> 
-
-    </a-assets> 
-
-    <a-entity gltf-model="#card"></a-entity> 
-
-</a-scene> 
 	<!-- For more information: https://aframe.io/docs/1.5.0/guides/building-a-basic-scene.html#transforming-an-entity-in-3d -->
 	<a-scene mindar-image="imageTargetSrc: ./imageTargets/card.mind;" color-space="sRGB"
 		renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
@@ -61,7 +49,7 @@
 		<!-- For more information: https://aframe.io/docs/1.5.0/core/asset-management-system.html -->
 		<a-assets>
 			<img id="card" src="./images/virtualCard.png">
-			<a-asset-item id="avatarModel" src="C:\Users\fabte\Desktop\AvatarCreation_Files.glb"></a-asset-item>
+		    <a-asset-item id="avatarModel" src="./models/MyAvatar.glb"></a-asset-item> 
 		</a-assets>
 
 		<!-- Camera settings -->
